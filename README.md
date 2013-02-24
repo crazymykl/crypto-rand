@@ -7,6 +7,6 @@ However, `crypto` deals only in byte streams. Enter `crypto-rand`, a nice little
 API
 ---
 
-`.rand()`: a random double on [0,1)
-`.randRange(n)`: an integer which is the floor of a double on [0,n)
-`.randInt(min, max)`: an integer which is the floor of a double on [min,max+1)
+- `.rand()`: a random double on [0,1)
+- `.randRange(n)`: an integer which is the floor of a double on [0,n)
+- `.randInt(min, max)`: an integer which is the floor of a double on [min,max+1)
